@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+}
+p{
+    display:none;
+    margin-bottom: 100px;
+}
+button{
+    margin-left: 50px;
+    border-radius: 50%;border: none;
+    border:none;
+}
+button:active + p{
+    display: block;
+    height:2px;
+    width: 300px;
+    position: relative;
+    
+}
+
+.first{
+    position:static;
+    margin: 10px;
+}
+
+
+
